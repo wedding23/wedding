@@ -1,0 +1,23 @@
+.list {
+  margin-bottom: vw(128);
+  display: flex;
+  overflow: hidden !important;
+  padding: vw(20) 0 vw(20) vw(40) !important;
+
+  @include media(xs) {
+    margin-bottom: vw(80, 360);
+    padding: vw(20, 360) 0 vw(20, 360) 0 !important;
+  }
+}
+.slider {
+  width: 100%;
+  overflow: visible !important;
+
+  @include media(xs) {
+    padding: 0 !important;
+  }
+}
+
+.sliderWrapper {
+  transition-timing-function: linear !important;
+}
